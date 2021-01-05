@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+/**
+ *
+ * This Is Small Header Area Section.
+ *
+ */
+
+.intro-header{ 
+box-shadow: 0px 10px 13px -7px #000000, 2px 18px 29px 27px rgba(248,248,248,0);
+
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 18px 29px 27px rgba(248,248,248,0);
+height: 70px;
+}
+
+.waviy h3 {
+  display: inline-block;
+  font-size: 25px;
+  color: green;
+  margin-top: 13px;
+}
+
+.contact-button{
+    float: right;
+    margin-top: -36px;
+    margin-right: 55px;
+}
+.contact-button a{
+    text-decoration: none;
+    font-size: 23px;
+    padding:2px 13px;
+    color: darkviolet;
+    background-color: mediumslateblue;
+}
+.contact-button a:hover{
+    color: navy;
+}
+
+
+/**
+ *
+ * This Is Navbar section.
+ *
+ */
+.navbar{
+  width: 100%;
+  display: flex;
+  background: rgb(76, 0, 255);
+  transition: all 0.7s ease-in-out;
+  user-select: none!important;
+}
+
+.nav-list{
+  display: flex;
+  width: 100%;
+}
+
+.nav-list li{
+  list-style: none;
+  padding: 2.5em;
+  float: right;
+  z-index: 999999999;
+}
+
+.nav-list li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  user-select: none!important;
+  font-size:20px;
+}
+
+.logo{
+  float: left;
+  padding: 18px 1.4em;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.logo img {
+  height: 65px;
+  width: 165px;
+}
+.buttons{
+  position: absolute;
+  right: 0;
+  padding: 0.5em;
+  overflow: hidden;
+  
+}
+
+.btn{
+  padding: 0.7em;
+  font-family: 'Poppins', sans-serif;
+  background: none;
+  border: 2.4px solid white!important;
+  border: none;
+  color: white;
+  font-size: 17px;
+  margin: 1.1rem 0.5rem;
+  overflow: hidden;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn a {
+  text-decoration: none;
+  color: aqua;
+  font-style: italic;
+  font-weight: bold;
+}
+.hamburger-menu-icon{
+  display: none;
+}
